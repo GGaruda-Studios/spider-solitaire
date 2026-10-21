@@ -23,20 +23,22 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="meta">Spider Solitaire Classic &middot; Golden Garuda Studios &middot; Effective 3 October 2026</p>
+<p class="meta">Spider Solitaire Classic &middot; Golden Garuda Studios &middot; Effective 21 October 2026</p>
 
 <div class="summary">
   <p>
-    <strong>The short version.</strong> We operate no accounts, cloud save,
-    analytics service or developer-controlled server. Your saved game, statistics
-    and settings are stored on your device and are not uploaded by us.
+    <strong>The short version.</strong> We operate no accounts, cloud save or
+    developer-controlled server. Your saved game, statistics and settings are
+    stored on your device and are not uploaded by us.
   </p>
   <p>
     The App uses Google Mobile Ads (AdMob). Google's advertising software
     automatically processes certain device, advertising, interaction and
     diagnostic information. We receive aggregated reports from Google, and we
     receive your email address and message only if you choose to contact us.
-    The App also uses Firebase Crashlytics to send us crash reports.
+    The App also uses Firebase Crashlytics to send us crash reports, and
+    Google Analytics for Firebase to tell us, in aggregate, how the game is
+    played. It can send you one daily reminder notification if you allow it.
     Details and privacy controls are set out below.
   </p>
 </div>
@@ -56,9 +58,9 @@
 
 <h2>2. Information we receive directly</h2>
 <p>
-  We operate no account system, cloud save, developer-controlled server or analytics
-  service. The App does not directly send us your name,
-  email address, saved game, statistics or settings.
+  We operate no account system, cloud save or developer-controlled server. The App
+  does not directly send us your name, email address, saved game, statistics or
+  settings.
 </p>
 <p>
   If the App crashes, <strong>Firebase Crashlytics</strong> (a Google service)
@@ -69,6 +71,19 @@
   name. We use it only to find and fix crashes. See
   <a href="https://firebase.google.com/support/privacy">Firebase privacy
   information</a>.
+</p>
+<p>
+  The App uses <strong>Google Analytics for Firebase</strong> (a Google service)
+  to understand how the game is played, so we can improve it. It records app
+  usage events such as app opens, which screens are viewed, games started and
+  finished (difficulty, whether the game was won, its length, moves and jokers
+  used, and whether it was the daily challenge), tutorial progress and which
+  reminder was sent, together with device model, operating system version, App
+  version, approximate country, and an app-instance identifier. It does not
+  record your name or email address. We see this only as aggregated reports in
+  the Firebase console and use it only to operate and improve the App. Google
+  keeps this data under its retention settings, which we have set to the
+  shortest available period.
 </p>
 <p>
   Google Play and AdMob may provide us with aggregated or platform reports, such as
@@ -91,7 +106,8 @@
   <tr><th>What</th><th>Why</th></tr>
   <tr><td>Your game in progress &mdash; board, score, moves and elapsed time</td><td>So an interrupted game is still there when you come back</td></tr>
   <tr><td>Your statistics &mdash; games played and won, streaks, level and XP</td><td>So your own record survives between sessions</td></tr>
-  <tr><td>Your settings &mdash; background, card face, card back, difficulty, sound, vibration, orientation and the rest</td><td>So the game looks and behaves the way you left it</td></tr>
+  <tr><td>Your settings &mdash; background, card face, card back, difficulty, sound, vibration, orientation, daily reminder and the rest</td><td>So the game looks and behaves the way you left it</td></tr>
+  <tr><td>Your daily challenge record &mdash; which days you won, and the day you last opened the App</td><td>To fill in your calendar and trophies, and to skip the reminder on days you have already played</td></tr>
 </table>
 <p>
   This is app-private storage: other apps normally cannot read it, we cannot access
@@ -103,7 +119,9 @@
 
 <h2>4. Advertising</h2>
 <p>
-  The App shows ads supplied by <strong>Google AdMob</strong>, in three places:
+  The App shows ads supplied by <strong>Google AdMob</strong>. It has three ad
+  placements; at present only the rewarded video is switched on, and the other
+  two may be switched on in a future version:
 </p>
 <ul>
   <li>a <strong>banner</strong> strip at the bottom of the game screen;</li>
@@ -141,9 +159,10 @@
   information from sites or apps that use our services</a>.
 </p>
 <p>
-  <strong>Apart from Google Mobile Ads, Google's User Messaging Platform and
-  Firebase Crashlytics, the App contains no other third-party SDK.</strong> There
-  is no analytics, social-network, attribution or separate tracking SDK.
+  <strong>Apart from Google Mobile Ads, Google's User Messaging Platform,
+  Firebase Crashlytics and Google Analytics for Firebase, the App contains no
+  other third-party SDK.</strong> There is no social-network, attribution or
+  separate tracking SDK, and analytics data is not used for advertising.
 </p>
 <p>
   We do not sell personal information for money. The advertising processing
@@ -157,6 +176,19 @@
   the choice recorded through Google's consent platform. Where consent is not
   required, we rely on our legitimate interest in supporting and protecting the
   free App through advertising, subject to your rights and applicable law.
+</p>
+
+<h2>4a. Notifications</h2>
+<p>
+  On Android 13 and later the App asks your permission before sending
+  notifications. If you allow it, the App may show <strong>one reminder a
+  day</strong> in the early evening, and only on a day you have not opened the
+  App: a daily challenge reminder, a reminder about your daily winning streak,
+  or, after a few days away, a single &ldquo;come back&rdquo; message. The
+  reminder is scheduled on your device by Android; no server sends it, and no
+  push-notification service is used. You can turn it off with
+  <strong>Settings &rsaquo; Daily reminder</strong> in the App, or in your
+  device's notification settings.
 </p>
 
 <h2>5. Your consent, and changing your mind</h2>
@@ -199,6 +231,10 @@
       retrieve or erase it remotely.</li>
   <li><strong>Messages sent to us</strong> can be the subject of a request to the
       contact address below, subject to information we must retain by law.</li>
+  <li><strong>Analytics and crash data</strong> sent to Firebase is held by
+      Google under the retention settings described in section 2. To ask us to
+      delete analytics data linked to your installation, contact us at the
+      address in section 9.</li>
   <li><strong>Data Google receives from advertising</strong> is handled under
       Google's policies and retention periods. We do not control those periods.
       Your available controls include Privacy Options in the App and the Android
